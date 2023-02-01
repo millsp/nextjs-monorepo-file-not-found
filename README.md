@@ -15,4 +15,6 @@ cd service && pnpm exec next dev
 5. Works
 6. Deploy to Vercel
 ```sh
+npm i -g vercel
+vercel
 ```
