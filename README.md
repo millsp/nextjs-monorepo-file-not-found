@@ -14,7 +14,7 @@ Error: ENOENT: no such file or directory, open '/nextjs-monorepo-notfound/packag
 
 This error happened while generating the page. Any console logs will be displayed in the terminal window.
 ```
-4. Uncomment workaround in next.config.js
+4. Uncomment workaround in `next.config.js`
 ```sh
 pnpm install
 cd packages/service
