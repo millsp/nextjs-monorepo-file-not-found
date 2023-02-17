@@ -4,7 +4,7 @@
     ```sh
     pnpm install
     cd packages/service
-    pnpm exec next dev
+    npx next dev
     ```
 1. Open http://localhost:3000/api/test
 1. Observe failure:
@@ -15,7 +15,7 @@
 1. Kill running `next dev`
 1. Uncomment workaround in `next.config.js`, then:
     ```sh
-    pnpm exec next dev
+    npx next dev
     ```
 1. Reload http://localhost:3000/api/test
 1. Observe success:

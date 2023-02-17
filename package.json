@@ -1,5 +1,10 @@
 {
   "private": true,
+  "name": "my-workspaces-powered-project",
+  "workspaces": [
+    "packages/file-reader",
+    "packages/service"
+  ],
   "scripts": {
     "build": "pnpm -r build"
   },
