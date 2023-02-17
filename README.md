@@ -18,7 +18,10 @@
     pnpm exec next dev
     ```
 1. Reload http://localhost:3000/api/test
-1. Observe success!
+1. Observe success:
+    ```
+    {"data":"Hello world, from a file!"}
+    ```
 1. Deploy to Vercel
     ```sh
     cd ../..
