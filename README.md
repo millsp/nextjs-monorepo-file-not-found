@@ -2,9 +2,9 @@
 
 1. Run these commands:
     ```sh
-    pnpm install
+    yarn
     cd packages/service
-    npx next dev
+    yarn next dev
     ```
 1. Open http://localhost:3000/api/test
 1. Observe failure:
@@ -15,7 +15,7 @@
 1. Kill running `next dev`
 1. Uncomment workaround in `next.config.js`, then:
     ```sh
-    npx next dev
+    yarn next dev
     ```
 1. Reload http://localhost:3000/api/test
 1. Observe success:
