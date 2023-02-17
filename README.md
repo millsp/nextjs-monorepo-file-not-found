@@ -2,7 +2,7 @@
 
 1. Run these commands:
     ```sh
-    pnpm install
+    npm install
     cd packages/service
     npx next dev
     ```
